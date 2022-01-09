@@ -1,0 +1,32 @@
+table {
+    border-spacing: 0;
+    width: 50%;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  .color-first{
+      background-color: blue;
+  }
+  ul li {
+    margin: 0 2px;
+    cursor: pointer;
+    padding: 1px 6px;
+    border: solid 1px #666;
+    display : inline;
+}
+.current {
+    background: #666;
+    color: #fff;
+}
